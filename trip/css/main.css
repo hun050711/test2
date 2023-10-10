@@ -1,0 +1,174 @@
+html {
+  scroll-behavior: smooth;
+}
+
+span {
+  opacity: 0;
+}
+
+.tmp {
+  animation: fade 0.5 0.25s forwards;
+}
+@keyframes fade {
+  to {
+    opacity: 1;
+  }
+}
+
+#header_img {
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+#header_main_text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+.nav_link {
+  font-size: 100px;
+}
+
+.embla {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  height: 800px;
+  overflow: hidden;
+}
+.embla__container {
+  position: relative;
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* &:nth-child(1) {
+        background-color: coral;
+    }
+
+    &:nth-child(2) {
+        background-color: skyblue;
+    }
+
+    &:nth-child(3) {
+        background-color: gold;
+    } */
+}
+
+.img_text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.img_text2 {
+  margin-right: 70%;
+  position: absolute;
+  top: 40%;
+  /* left: 50%; */
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.img_text3 {
+  margin-right: 70%;
+  position: absolute;
+  top: 40%;
+  /* left: 50%; */
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.image-box {
+  width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
+}
+
+.attraction {
+  width: 100%;
+  padding: 0;
+  margin: auto;
+  margin-bottom: 20%;
+  height: 3000px;
+  background-color: lavenderblush;
+}
+.attImg {
+  height: 300px;
+  position: relative;
+  display: flex;
+}
+
+.attTitle {
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.attDetail {
+  font-size: 17px;
+}
+
+.attDesc {
+  padding-left: 20px;
+  padding-right: 20px;
+  /* border: green solid; */
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#attOne {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  margin-top: 20%;
+  padding: 10px;
+  position: relative;
+  display: flex;
+}
+
+#attTwo {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  margin-top: 20%;
+  padding: 10px;
+  position: relative;
+  display: flex;
+}
+
+#attThree {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  margin-top: 20%;
+  padding: 10px;
+  position: relative;
+  display: flex;
+}
+
+#attFour {
+  overflow: hidden;
+  width: 80%;
+  margin: auto;
+  margin-top: 20%;
+  padding: 10px;
+  position: relative;
+  display: flex;
+}

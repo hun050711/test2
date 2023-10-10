@@ -1,0 +1,54 @@
+h1 {
+  color: dodgerblue;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3%;
+  box-shadow: inset 0-5px 0 rgb(201, 232, 255);
+  line-height: 50px;
+  padding: 20px;
+}
+
+.title {
+  width: 20%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+.selects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.form-select {
+  background-color: #fff;
+  display: flex;
+  border-radius: 30px;
+  width: 25%;
+}
+
+.form-control {
+  border-radius: 30px;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(80, 179, 255);
+  /* box-shadow: 0 0 2px 2px; */
+  border-radius: 10px;
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(18, 149, 255);
+  color: white;
+}
+
+#map {
+  margin: auto;
+  margin-bottom: 10%;
+}
